@@ -1,0 +1,29 @@
+@import 'reset';
+@import 'mixins';
+@import 'variables';
+
+@import 'info';
+@import 'header';
+
+body {
+    background: $bgc;
+    font-family: $ff;
+    color: $txc;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 70vh;
+}
