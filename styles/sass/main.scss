@@ -2,22 +2,15 @@
 @import 'mixins';
 @import 'variables';
 
-@import 'info';
-@import 'header';
+@import '../sass/components/_header.scss';
+@import '../sass/components/index/info.scss';
 
 body {
-    background: $bgc;
-    font-family: $ff;
-    color: $txc;
-    overflow-x: hidden;
+    @include body;
+    overflow: hidden;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
+    @include container;
 }
 .content-container {
     display: flex;
@@ -25,5 +18,5 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
     width: 50vw;
-    height: 70vh;
+    height: 100vh;
 }

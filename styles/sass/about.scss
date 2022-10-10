@@ -1,0 +1,13 @@
+@import 'reset';
+@import 'mixins';
+@import 'variables';
+
+@import '../sass/components/_header.scss';
+@import '../sass/components/about/about-me.scss';
+
+body {
+    @include body;
+}
+.container {
+    @include container;
+}

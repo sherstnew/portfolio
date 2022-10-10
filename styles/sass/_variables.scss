@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Vinnytsia Sans';
+    src: url('/assets/fonts/VinnytsiaSansReg.ttf');
+}
 $bgc: #000D15;
 $txc: #ffffff;
-$ff: 'Inconsolata', monospace;
+$ffic: 'Inconsolata', monospace;
+$ffvi: 'Vinnytsia Sans';
 $bfs: 45px;
+$hfs: 30px;
 $pfs: 25px;

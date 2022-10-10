@@ -1,0 +1,14 @@
+@mixin body {
+    background: $bgc;
+    font-family: $ffic;
+    color: $txc;
+    overflow-x: hidden;
+}
+@mixin container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
